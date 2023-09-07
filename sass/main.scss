@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@import './blocs/_fonts.scss';
+@import './blocs/_variables.scss';
+body{
+    font-family: $title_font;
+    background-color: $white_color;
+}
